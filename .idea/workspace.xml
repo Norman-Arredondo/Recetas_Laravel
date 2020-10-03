@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e7d763-62a5-4360-922d-bfd804cfb495" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RecetaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/nosotros.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
@@ -150,23 +151,44 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1huCdKNqkiRbvHg4Gyrk1gix5ii" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectStartupLocalConfiguration">
+    <configurations>
+      <configuration id="PHP Script.serve" name="serve" />
+    </configurations>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Norman\Desktop\Recetas_Laravel\resources\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.ArtisanServe">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="ArtisanServe" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/artisan" scriptParameters="serve">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.ArtisanServe" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,7 +200,13 @@
       <updated>1600851675642</updated>
       <workItem from="1600851676685" duration="454000" />
       <workItem from="1600920051775" duration="500000" />
-      <workItem from="1600920591429" duration="1427000" />
+      <workItem from="1600920591429" duration="5103000" />
+      <workItem from="1601346024568" duration="7000" />
+      <workItem from="1601512085749" duration="253000" />
+      <workItem from="1601512403991" duration="97000" />
+      <workItem from="1601578921777" duration="9000" />
+      <workItem from="1601582017823" duration="180000" />
+      <workItem from="1601675855120" duration="5077000" />
     </task>
     <servers />
   </component>
@@ -197,26 +225,46 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="683" height="204" key="GridCell.Tab.0.bottom" timestamp="1600920089337">
+    <state x="402" y="0" key="#PHP" timestamp="1601677003749">
       <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="402" y="0" key="#PHP/0.0.1366.738/1366.0.1280.659@0.0.1366.738" timestamp="1601677003749" />
+    <state x="1491" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601677549999">
+      <screen x="1366" y="0" width="1280" height="659" />
+    </state>
+    <state x="1491" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1280.659@1366.0.1280.659" timestamp="1601677549999" />
+    <state x="1817" y="84" key="FileChooserDialogImpl" timestamp="1601677250181">
+      <screen x="1366" y="0" width="1280" height="659" />
+    </state>
+    <state x="1817" y="84" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1280.659@1366.0.1280.659" timestamp="1601677250181" />
+    <state width="1281" height="177" key="GridCell.Tab.0.bottom" timestamp="1601677608357">
+      <screen x="1366" y="0" width="1280" height="659" />
     </state>
     <state width="683" height="204" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.570@0.0.1366.738" timestamp="1600920089337" />
-    <state width="683" height="204" key="GridCell.Tab.0.center" timestamp="1600920089337">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1281" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.659@1366.0.1280.659" timestamp="1601677608357" />
+    <state width="1281" height="177" key="GridCell.Tab.0.center" timestamp="1601677608357">
+      <screen x="1366" y="0" width="1280" height="659" />
     </state>
     <state width="683" height="204" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.570@0.0.1366.738" timestamp="1600920089337" />
-    <state width="683" height="204" key="GridCell.Tab.0.left" timestamp="1600920089337">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1281" height="177" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.659@1366.0.1280.659" timestamp="1601677608357" />
+    <state width="1281" height="177" key="GridCell.Tab.0.left" timestamp="1601677608356">
+      <screen x="1366" y="0" width="1280" height="659" />
     </state>
     <state width="683" height="204" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.570@0.0.1366.738" timestamp="1600920089337" />
-    <state width="683" height="204" key="GridCell.Tab.0.right" timestamp="1600920089337">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1281" height="177" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.659@1366.0.1280.659" timestamp="1601677608356" />
+    <state width="1281" height="177" key="GridCell.Tab.0.right" timestamp="1601677608357">
+      <screen x="1366" y="0" width="1280" height="659" />
     </state>
     <state width="683" height="204" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.570@0.0.1366.738" timestamp="1600920089337" />
-    <state x="184" y="14" key="SettingsEditor" timestamp="1600920559494">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1281" height="177" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.659@1366.0.1280.659" timestamp="1601677608357" />
+    <state x="1538" y="0" key="SettingsEditor" timestamp="1601680128789">
+      <screen x="1366" y="0" width="1280" height="659" />
     </state>
-    <state x="184" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1280.570@0.0.1366.738" timestamp="1600920559494" />
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1280.570@0.0.1366.738" timestamp="1600923731793" />
+    <state x="1538" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1280.659@1366.0.1280.659" timestamp="1601680128789" />
   </component>
 </project>
